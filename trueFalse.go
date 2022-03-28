@@ -4,7 +4,7 @@ import "fmt"
 
 func compare(value int) string {
 	//do not change this variable resultMessage, secretValue
-	resultMessge := ""
+	resultMessage := ""
 	secretValue := 88
 
 	//Insert your code from here
