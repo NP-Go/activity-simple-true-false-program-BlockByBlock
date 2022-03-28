@@ -23,7 +23,7 @@ func compare(value int) string {
 	fmt.Println(resultMessage)
 
 	//do not remove this line
-	return resultMessge
+	return resultMessage
 }
 
 func main() {
