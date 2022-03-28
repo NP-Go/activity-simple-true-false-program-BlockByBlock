@@ -8,6 +8,19 @@ func compare(value int) string {
 	secretValue := 88
 
 	//Insert your code from here
+	if value > secretValue {
+		resultMessage = "Bigger than secret value"
+	}
+	
+	if value < secretValue {
+		resultMessage = "Smaller than secret value"
+	}
+	
+	if value == secretValue {
+		resultMessage = "Same as secret value"
+	}
+	
+	fmt.Println(resultMessage)
 
 	//do not remove this line
 	return resultMessge
